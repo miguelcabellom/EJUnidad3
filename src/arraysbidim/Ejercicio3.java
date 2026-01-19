@@ -17,7 +17,7 @@ public class Ejercicio3 {
 		for (int fila = 0; fila < maximoFila; fila++) {
 			for (int columna = 0; columna < maximoColumna; columna++) {
 				enteros[fila][columna] = 10*fila+columna;
-				System.out.print(enteros[fila][columna]+ " ");
+				System.out.print(enteros[fila][columna]+ "\t ");
 			}
 			System.out.println();
 		}
